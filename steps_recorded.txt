@@ -15,20 +15,45 @@ Node.js v12.13.1.
 type CTRL^D to exit node
 > npm // to see if npm is installed 
 npm@6.12.1 C:\Program Files\nodejs\node_modules\npm
-> cls //clear screen
-> npm init
-> // follow the prompts
+  > cls //clear screen
+  > npm init
+  > // follow the prompts
 file package.json created
 create file : app.js
 insert boilerplate // bare minimum application
 I do not use any framework or dependancies, only native Node
-> node app.js // run the app
-> Server running at http://127.0.0.1:80/
+  > node app.js // run the app
+  > Server running at http://127.0.0.1:80/
 browse 127.0.0.1:80  // local host
 browse 165.73.49.104:80 // home ip address
-> Hello World 1 // etc...
-................
-now on to GITHUB
-................
-hit the + button to create a new depository
-depository name : node-hello-World
+  > Hello World 1 // etc...
+
+NOW ON TO GITHUB
+  hit the + button to create a new depository
+  depository name : node-hello-World
+GET GIT ON THE COMMAND LINE
+  you get the error : 'git' is not recognized as an internal or external command,
+  set up the GitHub CLI (command line interface) : 
+  update "PATH" in environment options : add two paths at the end
+      C:\Program Files\Git\bin\  and  C:\Program Files\Git\cmd\
+  restart computer
+  > git // you get a response
+  git configure the user :
+    > git config --global user.email "gerhard@keysfornow.com"
+    > git config --global user.name "gerhardbuchner"
+USE GIT FROM CMD LINE
+  > git init // create a new git depository
+  Reinitialized existing Git repository in C:/Users/Gerhard/Documents/Node/_Sandbox/Hello World/.git/
+  > git status // to see which files will be committed
+  to limit the files to be committed create a gitignore file :
+  > npx gitignore node // for local installation
+  DO NOT!! > npm i -g gitignore && gitignore node // for global install step
+  output:  npx: installed 1 in 2.546s
+           Created .gitignore file for type Node :)
+  > ls -a // to see all the files
+COMMIT
+  > git add . // to add everything in the current directory for commit
+  > git status // to see what is ready to be committed
+  > git commit -m "first commit"
+  
+
