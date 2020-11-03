@@ -1,0 +1,34 @@
+follow youtube video: https://www.youtube.com/watch?v=b0g-FJ5Zbb8&t=456s
+title : node js deploying to aws elastic beanstalk
+author : Caleb Curry
+exploring : "PIPELINE"
+Use as text editor : Visual Studio Code 
+install node on Windows
+create directory : ..\Node\Sandbox\Hello World
+create directory : ..\Node\Sandbox\Hello World\node_modules
+Save Workspace As : HELLO_WORLD
+install git 2.29.2 to C:\Program Files\git
+git: name of initial branch in repositories "master"
+terminal dir : C:\Users\Gerhard\Documents\Node\_Sandbox\Hello World>
+> node // type node in the console to see if node is installed
+Node.js v12.13.1.
+type CTRL^D to exit node
+> npm // to see if npm is installed 
+npm@6.12.1 C:\Program Files\nodejs\node_modules\npm
+> cls //clear screen
+> npm init
+> // follow the prompts
+file package.json created
+create file : app.js
+insert boilerplate // bare minimum application
+I do not use any framework or dependancies, only native Node
+> node app.js // run the app
+> Server running at http://127.0.0.1:80/
+browse 127.0.0.1:80  // local host
+browse 165.73.49.104:80 // home ip address
+> Hello World 1 // etc...
+................
+now on to GITHUB
+................
+hit the + button to create a new depository
+depository name : node-hello-World
